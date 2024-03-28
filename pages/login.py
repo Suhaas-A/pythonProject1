@@ -30,6 +30,9 @@ with st.form(key='login_form'):
     password = st.text_input('Password: ', type='password')
     st.divider()
 
+    feature = st.selectbox('Choose the feature', ['Virtual mouse', 'Sign language translator', 'Video call'])
+    st.divider()
+
     st.page_link('pages/forget_password.py')
 
     submit = st.form_submit_button('Login')
@@ -54,11 +57,8 @@ if submit:
             st.error('Invalid password')
         else:
             user_id = ids[usernames.index(username)]
-            st.session_state['user'] = {
-                'name': username,
-                'id': user_id
-            }
-            st.switch_page('pages/home.py')
+            st.session_state.user = [user_id, username]
+            st.switch_page(f'pages/{feature}.py')
 
 signup = st.button('Create an account')
 if signup:
