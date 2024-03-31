@@ -30,7 +30,7 @@ with st.form(key='login_form'):
     password = st.text_input('Password: ', type='password')
     st.divider()
 
-    feature = st.selectbox('Choose the feature', ['Virtual mouse', 'Sign language translator', 'Video call'])
+    feature = st.selectbox('Choose the feature', ['Virtual mouse', 'Sign language translator', 'Video translator'])
     st.divider()
 
     st.page_link('pages/forget_password.py')
