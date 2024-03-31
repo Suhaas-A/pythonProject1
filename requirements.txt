@@ -1,0 +1,13 @@
+pandas
+joblib
+scikit-learn
+streamlit
+opencv-python
+mediapipe
+PyAutoGUI
+numpy
+pillow
+SQLAlchemy
+google
+google-generativeai
+streamlit-modal
