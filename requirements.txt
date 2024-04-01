@@ -12,3 +12,4 @@ google
 google-generativeai
 streamlit-modal
 importlib
+libgl1-mesa-glx
