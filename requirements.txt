@@ -11,3 +11,4 @@ SQLAlchemy
 google
 google-generativeai
 streamlit-modal
+importlib
