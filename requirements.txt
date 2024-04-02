@@ -12,4 +12,4 @@ google-generativeai
 streamlit-modal
 opencv-python-headless
 opencv-python
-packages.txt
+python==3.11.5
