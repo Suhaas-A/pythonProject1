@@ -12,3 +12,4 @@ google-generativeai
 streamlit-modal
 opencv-python-headless
 opencv-python
+packages.txt
